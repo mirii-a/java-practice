@@ -37,3 +37,8 @@ a `breed` for the cat:
     "breed": "calico"
 }
 ```
+
+## Exercise 3 - Copy constructor
+
+Added a Rectangle class that instantiates width and length of a rectangle. Created a copy constructor that takes an
+existing Rectangle object and creates a new instance using its values.
