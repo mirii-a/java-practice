@@ -14,7 +14,7 @@ public class CatService {
     }
 
     public void addNewCat(Cat cat) {
-        Cat newCat = new Cat(cat.getName(), cat.getAge());
+        Cat newCat = new Cat(cat.getName(), cat.getAge(), cat.getBreed());
         catRepository.addCatToRepository(newCat);
     }
 

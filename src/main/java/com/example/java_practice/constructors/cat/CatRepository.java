@@ -19,7 +19,8 @@ public class CatRepository {
         boolean catExists = catCache.stream()
                 .anyMatch(kitty ->
                         kitty.getAge().equals(cat.getAge())
-                                && kitty.getName().endsWith(cat.getName()));
+                                && kitty.getName().endsWith(cat.getName())
+                                && kitty.getBreed().equals(cat.getBreed()));
         if (!catExists) {
             catCache.add(cat);
         }

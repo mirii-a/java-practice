@@ -17,3 +17,23 @@ http://localhost:8080/api/v1/cats/add
     "age": 3
 }
 ```
+
+Fetch all cats:
+
+```text
+http://localhost:8080/api/v1/cats/all
+```
+
+## Exercise 2 - Constructor overloading
+
+Added a default empty constructor, as well as a constructor that takes in a new parameter, `breed`. You can create a cat
+without `breed` same as above (the breed is automatically set to an empty string if none is set), or you can define
+a `breed` for the cat:
+
+```json
+{
+    "name": "mike",
+    "age": 3,
+    "breed": "calico"
+}
+```
